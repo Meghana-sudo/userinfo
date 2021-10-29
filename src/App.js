@@ -76,6 +76,7 @@ function App() {
                         <td>Id</td>
  <td>Fullname</td>
  <td>Email</td>
+ <td>Image</td>
  
  </tr>
  <tr>
@@ -87,7 +88,7 @@ function App() {
                         {" "}
                         <img
                           src={item.avatar}
-                          className="rounded"
+                          className="rounded-detail"
                           width="155"
                         />{" "}
                       </div>
