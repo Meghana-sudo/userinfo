@@ -81,7 +81,7 @@ function App() {
  </tr>
  <tr>
    <td>{item.id}</td>
-   <td>{item.first_name}{item.last_name}</td>
+   <td>{item.first_name} {item.last_name}</td>
    <td>{item.email}</td>
    <td><div className="d-flex flex-column">
                       <div className="image">
